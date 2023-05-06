@@ -1,13 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+// import SearchMovie from './netfilx/SearchMoive';
 // import './index.css';
 // import App from './App';
 // import { Counter } from './Counter';
 // import './counter.css';
-//    import{Todo} from './Todo';
+// import{Todo} from './Todo';
 
 // import reportWebVitals from './reportWebVitals';
-import Todo from './Todo';
+// import Todo from './Todo';
+// import RandomData from './RandomData'
+// import Products from './app/Products';
+
+import Home from './netfilx/Home';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -16,7 +21,12 @@ root.render(
 //     <App />
 //   </React.StrictMode> */}
 {/* <Counter/> */}
-<Todo />
+{/* <Todo /> */}
+{/* <RandomData/> */}
+{/* {<Products/>} */}
+
+{<Home/>}
+{/* <SearchMovie /> */}
 </>
 );
 
